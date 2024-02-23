@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+aside{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    justify-content: end;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+aside nav{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside nav a {
+    padding: 10px 5px;
+    border-radius: 10px 0 0 10px;
+}
+
+aside nav a:hover{
+    background-color: rgba(135, 97, 26, 0.495);
+}
+
+aside nav a.active{
+    background-color: white;
+}
+
+aside nav .p {
+    filter: drop-shadow(0 0 10px black);
+}
+
+main{
+    position: relative;
+    width: 80%;
+    left: 20%;
+    padding: 0 40px;
+}
+
+/* main section{
+
+} */
+
+main section h1{
+    padding-bottom: 10px;
+}
+
+main section p{
+    padding-bottom: 35px;
+}
